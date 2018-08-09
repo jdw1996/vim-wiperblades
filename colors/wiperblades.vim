@@ -1,0 +1,134 @@
+" Name: Wiper Blades Colorscheme
+" Author: Joseph Winters (jdw1996 on Github)
+" URL: https://github.com/jdw1996/vim-wiperblades
+" (see this url for latest release & screenshots)
+" License: MIT license
+
+highlight clear
+if exists("syntax_on")
+    syntax reset
+endif
+
+let g:colors_name = "wiperblades"
+
+set background=light
+
+" Default
+highlight Normal                    term=NONE              cterm=NONE              ctermfg=black       ctermbg=white        gui=NONE              guifg=black     guibg=white
+
+" Cursor stuff
+highlight Cursor                    term=NONE              cterm=NONE              ctermfg=white       ctermbg=black        gui=NONE              guifg=white     guibg=black
+highlight CursorIM                  term=NONE              cterm=NONE              ctermfg=white       ctermbg=black        gui=NONE              guifg=white     guibg=black
+highlight MatchParen                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightmagenta gui=NONE              guifg=NONE      guibg=plum
+highlight CursorLine                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgrey    gui=NONE              guifg=NONE      guibg=snow3
+highlight CursorColumn              term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgrey    gui=NONE              guifg=NONE      guibg=snow3
+
+" Interface
+highlight ColorColumn               term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgrey    gui=NONE              guifg=NONE      guibg=snow3
+highlight FoldColumn                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight Folded                    term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=darkgrey     gui=NONE              guifg=snow3     guibg=snow4
+highlight VertSplit                 term=NONE              cterm=NONE              ctermfg=black       ctermbg=black        gui=NONE              guifg=black     guibg=black
+highlight LineNr                    term=NONE              cterm=NONE              ctermfg=white       ctermbg=lightgrey    gui=NONE              guifg=white     guibg=snow3
+highlight CursorLineNr              term=NONE              cterm=NONE              ctermfg=white       ctermbg=lightgrey    gui=NONE              guifg=white     guibg=snow3
+highlight NonText                   term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=NONE         gui=NONE              guifg=snow3     guibg=NONE
+highlight EndOfBuffer               term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=NONE         gui=NONE              guifg=snow3     guibg=NONE
+highlight StatusLine                term=NONE              cterm=bold              ctermfg=white       ctermbg=black        gui=bold              guifg=white     guibg=black
+highlight StatusLineNC              term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=black        gui=NONE              guifg=snow3     guibg=black
+highlight Search                    term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=yellow       gui=NONE              guifg=NONE      guibg=yellow
+highlight IncSearch                 term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=yellow       gui=NONE              guifg=NONE      guibg=yellow
+highlight ModeMsg                   term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight MoreMsg                   term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight Question                  term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight WarningMsg                term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight WildMenu                  term=NONE              cterm=NONE              ctermfg=black       ctermbg=white        gui=NONE              guifg=black     guibg=white
+highlight Pmenu                     term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
+highlight PmenuSel                  term=NONE              cterm=NONE              ctermfg=white       ctermbg=darkmagenta  gui=NONE              guifg=white     guibg=magenta4
+highlight PmenuSbar                 term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
+highlight PmenuThumb                term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
+highlight TabLine                   term=NONE              cterm=NONE              ctermfg=white       ctermbg=black        gui=NONE              guifg=white     guibg=black
+highlight TabLineSel                term=NONE              cterm=NONE              ctermfg=black       ctermbg=white        gui=NONE              guifg=black     guibg=white
+highlight TabLineFill               term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=darkgrey     gui=NONE              guifg=NONE      guibg=snow4
+highlight Visual                    term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
+highlight VisualNOS                 term=reverse,underline cterm=reverse,underline ctermfg=NONE        ctermbg=NONE         gui=reverse,underline guifg=NONE      guibg=NONE
+highlight Menu                      term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight Scrollbar                 term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight Tooltip                   term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+
+" Miscellaneous
+highlight Directory                 term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight SignColumn                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight SpecialKey                term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=NONE         gui=NONE              guifg=snow3     guibg=NONE
+
+" Basic syntax
+highlight Comment                   term=NONE              cterm=italic            ctermfg=darkcyan    ctermbg=NONE         gui=italic            guifg=#23A8A1   guibg=NONE
+highlight Constant                  term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight Statement                 term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight PreProc                   term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight Type                      term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight Identifier                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight Special                   term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight Delimiter                 term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight Ignore                    term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight Title                     term=NONE              cterm=bold              ctermfg=NONE        ctermbg=NONE         gui=bold              guifg=NONE      guibg=NONE
+highlight Underlined                term=NONE              cterm=underline         ctermfg=NONE        ctermbg=NONE         gui=underline         guifg=NONE      guibg=NONE
+highlight Todo                      term=NONE              cterm=bold              ctermfg=darkcyan    ctermbg=NONE         gui=bold              guifg=#23A8A1   guibg=NONE
+highlight SpecialComment            term=NONE              cterm=bold              ctermfg=darkcyan    ctermbg=NONE         gui=bold              guifg=#23A8A1   guibg=NONE
+highlight Conceal                   term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+
+" Errors and spelling
+highlight Error                     term=NONE              cterm=NONE              ctermfg=darkred     ctermbg=NONE         gui=NONE              guifg=red       guibg=NONE
+highlight ErrorMsg                  term=NONE              cterm=NONE              ctermfg=darkred     ctermbg=NONE         gui=NONE              guifg=red       guibg=NONE
+highlight SpellBad                  term=underline         cterm=underline         ctermfg=darkred     ctermbg=NONE         gui=underline         guifg=red       guibg=NONE
+highlight SpellCap                  term=underline         cterm=underline         ctermfg=darkred     ctermbg=NONE         gui=underline         guifg=red       guibg=NONE
+highlight SpellLocal                term=underline         cterm=underline         ctermfg=darkred     ctermbg=NONE         gui=underline         guifg=red       guibg=NONE
+highlight SpellRare                 term=underline         cterm=underline         ctermfg=darkred     ctermbg=NONE         gui=underline         guifg=red       guibg=NONE
+
+" Diff
+highlight DiffAdd                   term=NONE              cterm=NONE              ctermfg=black       ctermbg=lightgreen   gui=NONE              guifg=black     guibg=PaleGreen
+highlight DiffDelete                term=NONE              cterm=NONE              ctermfg=black       ctermbg=lightred     gui=NONE              guifg=black     guibg=LightPink
+highlight DiffChange                term=NONE              cterm=NONE              ctermfg=black       ctermbg=lightblue    gui=NONE              guifg=black     guibg=LightSkyBlue
+highlight DiffText                  term=NONE              cterm=bold              ctermfg=black       ctermbg=lightblue    gui=bold              guifg=black     guibg=LightSkyBlue
+
+" Vimscript
+highlight vimOperParen              term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight vimContinue               term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+
+" LaTeX
+highlight texBoldStyle              term=NONE              cterm=bold              ctermfg=NONE        ctermbg=NONE         gui=bold              guifg=NONE      guibg=NONE
+highlight texItalStyle              term=NONE              cterm=italic            ctermfg=NONE        ctermbg=NONE         gui=italic            guifg=NONE      guibg=NONE
+highlight texMathZoneV              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texMathZoneW              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texMathZoneZS             term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texMathSymbol             term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texMathOper               term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texSubscript              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texSuperscript            term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texGreek                  term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texMathMatcher            term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight texStatement              term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight texSpecialChar            term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+
+" Markdown
+highlight markdownLinkDelimiter     term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight markdownLinkTextDelimiter term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight markdownBold              term=NONE              cterm=bold              ctermfg=NONE        ctermbg=NONE         gui=bold              guifg=NONE      guibg=NONE
+highlight markdownBoldDelimiter     term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight markdownItalic            term=NONE              cterm=italic            ctermfg=NONE        ctermbg=NONE         gui=italic            guifg=NONE      guibg=NONE
+highlight markdownItalicDelimiter   term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight markdownListMarker        term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight markdownOrderedListMarker term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight markdownBlockquote        term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight markdownCode              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
+highlight markdownH1                term=NONE              cterm=bold              ctermfg=darkmagenta ctermbg=NONE         gui=bold              guifg=magenta4  guibg=NONE
+highlight markdownH2                term=NONE              cterm=bold              ctermfg=darkmagenta ctermbg=NONE         gui=bold              guifg=magenta4  guibg=NONE
+highlight markdownH3                term=NONE              cterm=bold              ctermfg=darkmagenta ctermbg=NONE         gui=bold              guifg=magenta4  guibg=NONE
+highlight markdownH4                term=NONE              cterm=bold              ctermfg=darkmagenta ctermbg=NONE         gui=bold              guifg=magenta4  guibg=NONE
+highlight markdownH5                term=NONE              cterm=bold              ctermfg=darkmagenta ctermbg=NONE         gui=bold              guifg=magenta4  guibg=NONE
+highlight markdownH6                term=NONE              cterm=bold              ctermfg=darkmagenta ctermbg=NONE         gui=bold              guifg=magenta4  guibg=NONE
+
+" HTML
+highlight htmlTag                   term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+highlight htmlEndTag                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+
+" Snippets
+highlight snipEscape                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
