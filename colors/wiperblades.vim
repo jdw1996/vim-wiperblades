@@ -130,5 +130,8 @@ highlight markdownH6                term=NONE              cterm=bold           
 highlight htmlTag                   term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
 highlight htmlEndTag                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
 
+" Dart
+highlight dartOperator              term=NONE              cterm=NONE              ctermfg=black       ctermbg=white        gui=NONE              guifg=black     guibg=white
+
 " Snippets
 highlight snipEscape                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
