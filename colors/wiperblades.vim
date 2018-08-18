@@ -40,13 +40,13 @@ highlight ModeMsg                   term=NONE              cterm=NONE           
 highlight MoreMsg                   term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
 highlight Question                  term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
 highlight WarningMsg                term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight WildMenu                  term=NONE              cterm=NONE              ctermfg=black       ctermbg=white        gui=NONE              guifg=black     guibg=white
+highlight WildMenu                  term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
 highlight Pmenu                     term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
 highlight PmenuSel                  term=NONE              cterm=NONE              ctermfg=white       ctermbg=darkmagenta  gui=NONE              guifg=white     guibg=magenta4
 highlight PmenuSbar                 term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
 highlight PmenuThumb                term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
 highlight TabLine                   term=NONE              cterm=NONE              ctermfg=white       ctermbg=black        gui=NONE              guifg=white     guibg=black
-highlight TabLineSel                term=NONE              cterm=NONE              ctermfg=black       ctermbg=white        gui=NONE              guifg=black     guibg=white
+highlight TabLineSel                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
 highlight TabLineFill               term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=darkgrey     gui=NONE              guifg=NONE      guibg=snow4
 highlight Visual                    term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
 highlight VisualNOS                 term=reverse,underline cterm=reverse,underline ctermfg=NONE        ctermbg=NONE         gui=reverse,underline guifg=NONE      guibg=NONE
@@ -84,10 +84,10 @@ highlight SpellLocal                term=underline         cterm=underline      
 highlight SpellRare                 term=underline         cterm=underline         ctermfg=darkred     ctermbg=NONE         gui=underline         guifg=red       guibg=NONE
 
 " Diff
-highlight DiffAdd                   term=NONE              cterm=NONE              ctermfg=black       ctermbg=lightgreen   gui=NONE              guifg=black     guibg=PaleGreen
-highlight DiffDelete                term=NONE              cterm=NONE              ctermfg=black       ctermbg=lightred     gui=NONE              guifg=black     guibg=LightPink
-highlight DiffChange                term=NONE              cterm=NONE              ctermfg=black       ctermbg=lightblue    gui=NONE              guifg=black     guibg=LightSkyBlue
-highlight DiffText                  term=NONE              cterm=bold              ctermfg=black       ctermbg=lightblue    gui=bold              guifg=black     guibg=LightSkyBlue
+highlight DiffAdd                   term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgreen   gui=NONE              guifg=NONE      guibg=PaleGreen
+highlight DiffDelete                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightred     gui=NONE              guifg=NONE      guibg=LightPink
+highlight DiffChange                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightblue    gui=NONE              guifg=NONE      guibg=LightSkyBlue
+highlight DiffText                  term=NONE              cterm=bold              ctermfg=NONE        ctermbg=lightblue    gui=bold              guifg=NONE      guibg=LightSkyBlue
 
 " Vimscript
 highlight vimOperParen              term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
@@ -131,7 +131,13 @@ highlight htmlTag                   term=NONE              cterm=NONE           
 highlight htmlEndTag                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
 
 " Dart
-highlight dartOperator              term=NONE              cterm=NONE              ctermfg=black       ctermbg=white        gui=NONE              guifg=black     guibg=white
+highlight dartOperator              term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+
+" Make
+highlight makeSpecTarget            term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight makeCommands              term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight makeStatement             term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight makeIdent                 term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
 
 " Snippets
 highlight snipEscape                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
