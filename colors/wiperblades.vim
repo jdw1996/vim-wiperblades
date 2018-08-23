@@ -141,3 +141,7 @@ highlight makeIdent                 term=NONE              cterm=NONE           
 
 " Snippets
 highlight snipEscape                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
+
+" Quick-Scope
+highlight QuickScopePrimary         term=NONE              cterm=underline         ctermfg=blue        ctermbg=NONE         gui=underline         guifg=RoyalBlue guibg=NONE
+highlight QuickScopeSecondary       term=NONE              cterm=NONE              ctermfg=blue        ctermbg=NONE         gui=NONE              guifg=RoyalBlue guibg=NONE
