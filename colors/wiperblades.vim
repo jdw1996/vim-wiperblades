@@ -14,7 +14,7 @@ let g:colors_name = "wiperblades"
 set background=light
 
 " Default
-highlight Normal                    term=NONE      cterm=NONE      ctermfg=black       ctermbg=white        gui=NONE      guifg=black     guibg=white
+highlight Normal                    term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=black     guibg=white
 
 " Cursor stuff
 highlight Cursor                    term=NONE      cterm=NONE      ctermfg=white       ctermbg=black        gui=NONE      guifg=white     guibg=black
