@@ -60,14 +60,13 @@ highlight SignColumn                term=NONE      cterm=NONE      ctermfg=darkg
 highlight SpecialKey                term=NONE      cterm=NONE      ctermfg=lightgrey   ctermbg=NONE         gui=NONE      guifg=snow3     guibg=NONE
 
 " Basic syntax
-highlight Comment                   term=NONE      cterm=italic    ctermfg=darkcyan    ctermbg=NONE         gui=italic    guifg=#23A8A1   guibg=NONE
-highlight Constant                  term=NONE      cterm=NONE      ctermfg=darkmagenta ctermbg=NONE         gui=NONE      guifg=magenta4  guibg=NONE
-highlight Statement                 term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
-highlight PreProc                   term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
-highlight Type                      term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
+highlight Comment                   term=NONE      cterm=NONE      ctermfg=darkcyan    ctermbg=NONE         gui=NONE      guifg=#23A8A1   guibg=NONE
+highlight Constant                  term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
+highlight Statement                 term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
+highlight PreProc                   term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
+highlight Type                      term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
 highlight Identifier                term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
 highlight Special                   term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
-highlight Delimiter                 term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
 highlight Ignore                    term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
 highlight Title                     term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
 highlight Underlined                term=NONE      cterm=underline ctermfg=NONE        ctermbg=NONE         gui=underline guifg=NONE      guibg=NONE
@@ -90,8 +89,8 @@ highlight DiffChange                term=NONE      cterm=NONE      ctermfg=NONE 
 highlight DiffText                  term=NONE      cterm=bold      ctermfg=NONE        ctermbg=lightblue    gui=bold      guifg=NONE      guibg=LightSkyBlue
 
 " Vimscript
-highlight vimOperParen              term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
-highlight vimContinue               term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
+highlight vimCommentTitle           term=NONE      cterm=bold      ctermfg=darkcyan    ctermbg=NONE         gui=bold      guifg=#23A8A1   guibg=NONE
+highlight vimLineComment            term=NONE      cterm=NONE      ctermfg=darkcyan    ctermbg=NONE         gui=NONE      guifg=#23A8A1   guibg=NONE
 
 " LaTeX
 highlight texBoldStyle              term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
@@ -109,26 +108,16 @@ highlight texStatement              term=NONE      cterm=NONE      ctermfg=darkg
 highlight texSpecialChar            term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
 
 " Markdown
-highlight markdownLinkDelimiter     term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
-highlight markdownLinkTextDelimiter term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
 highlight markdownBold              term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
-highlight markdownBoldDelimiter     term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
 highlight markdownItalic            term=NONE      cterm=italic    ctermfg=NONE        ctermbg=NONE         gui=italic    guifg=NONE      guibg=NONE
-highlight markdownItalicDelimiter   term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
-highlight markdownListMarker        term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
-highlight markdownOrderedListMarker term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
-highlight markdownBlockquote        term=NONE      cterm=NONE      ctermfg=darkmagenta ctermbg=NONE         gui=NONE      guifg=magenta4  guibg=NONE
-highlight markdownCode              term=NONE      cterm=NONE      ctermfg=darkmagenta ctermbg=NONE         gui=NONE      guifg=magenta4  guibg=NONE
-highlight markdownH1                term=NONE      cterm=bold      ctermfg=darkmagenta ctermbg=NONE         gui=bold      guifg=magenta4  guibg=NONE
-highlight markdownH2                term=NONE      cterm=bold      ctermfg=darkmagenta ctermbg=NONE         gui=bold      guifg=magenta4  guibg=NONE
-highlight markdownH3                term=NONE      cterm=bold      ctermfg=darkmagenta ctermbg=NONE         gui=bold      guifg=magenta4  guibg=NONE
-highlight markdownH4                term=NONE      cterm=bold      ctermfg=darkmagenta ctermbg=NONE         gui=bold      guifg=magenta4  guibg=NONE
-highlight markdownH5                term=NONE      cterm=bold      ctermfg=darkmagenta ctermbg=NONE         gui=bold      guifg=magenta4  guibg=NONE
-highlight markdownH6                term=NONE      cterm=bold      ctermfg=darkmagenta ctermbg=NONE         gui=bold      guifg=magenta4  guibg=NONE
-
-" HTML
-highlight htmlTag                   term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
-highlight htmlEndTag                term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
+highlight markdownBlockquote        term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
+highlight markdownCode              term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
+highlight markdownH1                term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
+highlight markdownH2                term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
+highlight markdownH3                term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
+highlight markdownH4                term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
+highlight markdownH5                term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
+highlight markdownH6                term=NONE      cterm=bold      ctermfg=NONE        ctermbg=NONE         gui=bold      guifg=NONE      guibg=NONE
 
 " Dart
 highlight dartOperator              term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
@@ -138,9 +127,6 @@ highlight makeSpecTarget            term=NONE      cterm=NONE      ctermfg=NONE 
 highlight makeCommands              term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
 highlight makeStatement             term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
 highlight makeIdent                 term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE         gui=NONE      guifg=NONE      guibg=NONE
-
-" Snippets
-highlight snipEscape                term=NONE      cterm=NONE      ctermfg=darkgrey    ctermbg=NONE         gui=NONE      guifg=snow4     guibg=NONE
 
 " Quick-Scope
 highlight QuickScopePrimary         term=NONE      cterm=underline ctermfg=blue        ctermbg=NONE         gui=underline guifg=RoyalBlue guibg=NONE

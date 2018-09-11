@@ -8,5 +8,4 @@ While in the process of creating it, I named the scheme `wip`, for "work-in-prog
 That's where the name `wiperblades` comes from.
 
 If you have any questions or suggested improvements, feel free to [send me an email](mailto:jdwinters96@gmail.com) or [open an issue](https://github.com/jdw1996/vim-wiperblades/issues/new).
-
-![Screenshot](https://user-images.githubusercontent.com/17225098/43923305-6292aa5e-9bef-11e8-8786-27e41ca1dd9f.png)
+Do note that it is still subject to major changes and experimentation.
