@@ -28,8 +28,8 @@ highlight ColorColumn               term=NONE              cterm=NONE           
 highlight FoldColumn                term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
 highlight Folded                    term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=darkgrey     gui=NONE              guifg=snow3     guibg=snow4
 highlight VertSplit                 term=NONE              cterm=NONE              ctermfg=black       ctermbg=black        gui=NONE              guifg=black     guibg=black
-highlight LineNr                    term=NONE              cterm=NONE              ctermfg=white       ctermbg=lightgrey    gui=NONE              guifg=white     guibg=snow3
-highlight CursorLineNr              term=NONE              cterm=NONE              ctermfg=white       ctermbg=lightgrey    gui=NONE              guifg=white     guibg=snow3
+highlight LineNr                    term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=white        gui=NONE              guifg=magenta4  guibg=white
+highlight CursorLineNr              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=white        gui=NONE              guifg=magenta4  guibg=white
 highlight NonText                   term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=NONE         gui=NONE              guifg=snow3     guibg=NONE
 highlight EndOfBuffer               term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=NONE         gui=NONE              guifg=snow3     guibg=NONE
 highlight StatusLine                term=NONE              cterm=bold              ctermfg=white       ctermbg=black        gui=bold              guifg=white     guibg=black
