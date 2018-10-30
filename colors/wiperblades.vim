@@ -83,10 +83,10 @@ highlight SpellLocal                term=underline         cterm=underline      
 highlight SpellRare                 term=underline         cterm=underline         ctermfg=darkred     ctermbg=NONE         gui=underline         guifg=red       guibg=NONE
 
 " Diff
-highlight DiffAdd                   term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgreen   gui=NONE              guifg=NONE      guibg=PaleGreen
-highlight DiffDelete                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightred     gui=NONE              guifg=NONE      guibg=LightPink
-highlight DiffChange                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightblue    gui=NONE              guifg=NONE      guibg=LightSkyBlue
-highlight DiffText                  term=NONE              cterm=bold              ctermfg=NONE        ctermbg=lightblue    gui=bold              guifg=NONE      guibg=LightSkyBlue
+highlight DiffAdd                   term=NONE              cterm=NONE              ctermfg=darkgreen   ctermbg=NONE         gui=NONE              guifg=NONE      guibg=PaleGreen
+highlight DiffDelete                term=NONE              cterm=NONE              ctermfg=darkred     ctermbg=NONE         gui=NONE              guifg=NONE      guibg=LightPink
+highlight DiffChange                term=NONE              cterm=NONE              ctermfg=darkblue    ctermbg=NONE         gui=NONE              guifg=NONE      guibg=LightSkyBlue
+highlight DiffText                  term=NONE              cterm=bold              ctermfg=darkblue    ctermbg=NONE         gui=bold              guifg=NONE      guibg=LightSkyBlue
 
 " Vimscript
 highlight vimCommentTitle           term=NONE              cterm=bold              ctermfg=darkcyan    ctermbg=NONE         gui=bold              guifg=#23A8A1   guibg=NONE
