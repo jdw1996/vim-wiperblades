@@ -129,11 +129,11 @@ highlight makeStatement             term=NONE              cterm=NONE           
 highlight makeIdent                 term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
 
 " Diff
-highlight diffFile                  term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgreen   gui=NONE              guifg=NONE      guibg=PaleGreen
-highlight diffAdded                 term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgreen   gui=NONE              guifg=NONE      guibg=PaleGreen
-highlight diffNewFile               term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightred     gui=NONE              guifg=NONE      guibg=LightPink
-highlight diffRemoved               term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightred     gui=NONE              guifg=NONE      guibg=LightPink
-highlight diffLine                  term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightblue    gui=NONE              guifg=NONE      guibg=LightSkyBlue
+highlight diffFile                  term=NONE              cterm=NONE              ctermfg=darkgreen   ctermbg=NONE         gui=NONE              guifg=NONE      guibg=PaleGreen
+highlight diffAdded                 term=NONE              cterm=NONE              ctermfg=darkgreen   ctermbg=NONE         gui=NONE              guifg=NONE      guibg=PaleGreen
+highlight diffNewFile               term=NONE              cterm=NONE              ctermfg=darkred     ctermbg=NONE         gui=NONE              guifg=NONE      guibg=LightPink
+highlight diffRemoved               term=NONE              cterm=NONE              ctermfg=darkred     ctermbg=NONE         gui=NONE              guifg=NONE      guibg=LightPink
+highlight diffLine                  term=NONE              cterm=NONE              ctermfg=darkblue    ctermbg=NONE         gui=NONE              guifg=NONE      guibg=LightSkyBlue
 
 " Quick-Scope
 highlight QuickScopePrimary         term=NONE              cterm=underline         ctermfg=blue        ctermbg=NONE         gui=underline         guifg=RoyalBlue guibg=NONE
