@@ -32,8 +32,8 @@ highlight LineNr                    term=NONE              cterm=NONE           
 highlight CursorLineNr              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
 highlight NonText                   term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=NONE         gui=NONE              guifg=snow3     guibg=NONE
 highlight EndOfBuffer               term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=NONE         gui=NONE              guifg=snow3     guibg=NONE
-highlight StatusLine                term=NONE              cterm=bold              ctermfg=white       ctermbg=black        gui=bold              guifg=white     guibg=black
-highlight StatusLineNC              term=NONE              cterm=NONE              ctermfg=lightgrey   ctermbg=black        gui=NONE              guifg=snow3     guibg=black
+highlight StatusLine                term=NONE              cterm=bold,reverse      ctermfg=NONE        ctermbg=NONE         gui=bold              guifg=white     guibg=black
+highlight StatusLineNC              term=NONE              cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=white     guibg=black
 highlight Search                    term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=yellow       gui=NONE              guifg=NONE      guibg=yellow
 highlight IncSearch                 term=NONE              cterm=NONE              ctermfg=yellow      ctermbg=black        gui=NONE              guifg=yellow    guibg=black
 highlight ModeMsg                   term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
