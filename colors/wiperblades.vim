@@ -17,8 +17,8 @@ set background=light
 highlight Normal                    term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=black     guibg=white
 
 " Cursor stuff
-highlight Cursor                    term=NONE              cterm=NONE              ctermfg=white       ctermbg=black        gui=NONE              guifg=white     guibg=black
-highlight CursorIM                  term=NONE              cterm=NONE              ctermfg=white       ctermbg=black        gui=NONE              guifg=white     guibg=black
+highlight Cursor                    term=NONE              cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=white     guibg=black
+highlight CursorIM                  term=NONE              cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=white     guibg=black
 highlight MatchParen                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightmagenta gui=NONE              guifg=NONE      guibg=plum
 highlight CursorLine                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgrey    gui=NONE              guifg=NONE      guibg=snow3
 highlight CursorColumn              term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=lightgrey    gui=NONE              guifg=NONE      guibg=snow3
@@ -42,10 +42,10 @@ highlight Question                  term=NONE              cterm=NONE           
 highlight WarningMsg                term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
 highlight WildMenu                  term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
 highlight Pmenu                     term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
-highlight PmenuSel                  term=NONE              cterm=NONE              ctermfg=white       ctermbg=darkmagenta  gui=NONE              guifg=white     guibg=magenta4
+highlight PmenuSel                  term=NONE              cterm=reverse           ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=white     guibg=magenta4
 highlight PmenuSbar                 term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
 highlight PmenuThumb                term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
-highlight TabLine                   term=NONE              cterm=NONE              ctermfg=white       ctermbg=black        gui=NONE              guifg=white     guibg=black
+highlight TabLine                   term=NONE              cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=white     guibg=black
 highlight TabLineSel                term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
 highlight TabLineFill               term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=darkgrey     gui=NONE              guifg=NONE      guibg=snow4
 highlight Visual                    term=reverse           cterm=reverse           ctermfg=NONE        ctermbg=NONE         gui=reverse           guifg=NONE      guibg=NONE
