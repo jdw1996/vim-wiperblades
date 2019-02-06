@@ -126,4 +126,4 @@ highlight diffLine                  term=NONE              cterm=NONE           
 
 " Quick-Scope
 highlight QuickScopePrimary         term=NONE              cterm=underline         ctermfg=magenta     ctermbg=NONE         gui=underline         guifg=magenta4  guibg=NONE
-highlight QuickScopeSecondary       term=NONE              cterm=NONE              ctermfg=blue        ctermbg=NONE         gui=NONE              guifg=RoyalBlue guibg=NONE
+highlight QuickScopeSecondary       term=NONE              cterm=underline         ctermfg=blue        ctermbg=NONE         gui=underline         guifg=RoyalBlue guibg=NONE
