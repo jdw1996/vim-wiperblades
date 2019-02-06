@@ -95,17 +95,6 @@ highlight vimLineComment            term=NONE              cterm=NONE           
 " LaTeX
 highlight texBoldStyle              term=NONE              cterm=bold              ctermfg=NONE        ctermbg=NONE         gui=bold              guifg=NONE      guibg=NONE
 highlight texItalStyle              term=NONE              cterm=italic            ctermfg=NONE        ctermbg=NONE         gui=italic            guifg=NONE      guibg=NONE
-highlight texMathZoneV              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texMathZoneW              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texMathZoneZS             term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texMathSymbol             term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texMathOper               term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texSubscript              term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texSuperscript            term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texGreek                  term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texMathMatcher            term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
-highlight texStatement              term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
-highlight texSpecialChar            term=NONE              cterm=NONE              ctermfg=darkgrey    ctermbg=NONE         gui=NONE              guifg=snow4     guibg=NONE
 
 " Markdown
 highlight markdownBold              term=NONE              cterm=bold              ctermfg=NONE        ctermbg=NONE         gui=bold              guifg=NONE      guibg=NONE
