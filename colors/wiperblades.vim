@@ -61,7 +61,7 @@ highlight SpecialKey                term=NONE              cterm=NONE           
 
 " Basic syntax
 highlight Comment                   term=NONE              cterm=NONE              ctermfg=darkcyan    ctermbg=NONE         gui=NONE              guifg=#23A8A1   guibg=NONE
-highlight Constant                  term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
+highlight Constant                  term=NONE              cterm=NONE              ctermfg=darkmagenta ctermbg=NONE         gui=NONE              guifg=magenta4  guibg=NONE
 highlight Statement                 term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
 highlight PreProc                   term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
 highlight Type                      term=NONE              cterm=NONE              ctermfg=NONE        ctermbg=NONE         gui=NONE              guifg=NONE      guibg=NONE
